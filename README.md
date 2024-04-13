@@ -2,63 +2,64 @@
 #
 ### PROBLEM STATEMENT OF THE DATA
 ``` 
-A BIKE-SHARING SYSTEM IS A SERVICE IN WHICH BIKES ARE MADE AVAILABLE FOR SHARED USE TO INDIVIDUALS ON A SHORT TERM 
-BASIS FOR A PRICE OR FREE.MANY BIKE SHARE SYSTEMS ALLOW PEOPLE TO BORROW A BIKE FROM A "DOCK" WHICH IS USUALLY
-COMPUTER-CONTROLLED WHEREIN THE USER ENTERS THE PAYMENT INFORMATION, AND THE SYSTEM UNLOCKS IT.
-THIS BIKE CAN THEN BE RETURNED TO ANOTHER DOCK BELONGING TO THE SAME SYSTEM.
-A US BIKE-SHARING PROVIDER BOOMBIKES HAS RECENTLY SUFFERED CONSIDERABLE DIPS IN THEIR REVENUES DUE TO THE ONGOING CORONA PANDEMIC. 
-THE COMPANY IS FINDING IT VERY DIFFICULT TO SUSTAIN IN THE CURRENT MARKET SCENARIO. SO, 
-IT HAS DECIDED TO COME UP WITH A MINDFUL BUSINESS PLAN 
-TO BE ABLE TO ACCELERATE ITS REVENUE AS SOON AS THE ONGOING LOCKDOWN COMES TO AN END, 
-AND THE ECONOMY RESTORES TO A HEALTHY STATE.
-IN SUCH AN ATTEMPT, BOOMBIKES ASPIRES TO UNDERSTAND THE DEMAND FOR SHARED BIKES AMONG THE PEOPLE AFTER 
-THIS ONGOING QUARANTINE SITUATION ENDS ACROSS THE NATION DUE TO COVID-19. 
-THEY HAVE PLANNED THIS TO PREPARE THEMSELVES TO CATER TO THE PEOPLE'S NEEDS 
-ONCE THE SITUATION GETS BETTER ALL AROUND AND STAND OUT FROM OTHER SERVICE PROVIDERS AND MAKE HUGE PROFITS.
+A Bike-Sharing System Is A Service In Which Bikes Are Made Available For Shared Use To Individuals On A Short Term 
+Basis For A Price Or Free.Many Bike Share Systems Allow People To Borrow A Bike From A "Dock" Which Is Usually
+Computer-Controlled Wherein The User Enters The Payment Information, And The System Unlocks It.
+This Bike Can Then Be Returned To Another Dock Belonging To The Same System.
+A Us Bike-Sharing Provider Boombikes Has Recently Suffered Considerable Dips In Their Revenues Due To The Ongoing Corona Pandemic. 
+The Company Is Finding It Very Difficult To Sustain In The Current Market Scenario. So, 
+It Has Decided To Come Up With A Mindful Business Plan 
+To Be Able To Accelerate Its Revenue As Soon As The Ongoing Lockdown Comes To An End, 
+And The Economy Restores To A Healthy State.
+In Such An Attempt, Boombikes Aspires To Understand The Demand For Shared Bikes Among The People After 
+This Ongoing Quarantine Situation Ends Across The Nation Due To Covid-19. 
+They Have Planned This To Prepare Themselves To Cater To The People's Needs 
+Once The Situation Gets Better All Around And Stand Out From Other Service Providers And Make Huge Profits.
 
-THEY HAVE CONTRACTED A CONSULTING COMPANY TO UNDERSTAND THE FACTORS ON WHICH THE DEMAND FOR THESE SHARED BIKES DEPENDS.
-SPECIFICALLY, THEY WANT TO UNDERSTAND THE FACTORS AFFECTING THE DEMAND FOR THESE SHARED BIKES IN THE AMERICAN MARKET. 
-THE COMPANY WANTS TO KNOW:
-•	WHICH VARIABLES ARE SIGNIFICANT IN PREDICTING THE DEMAND FOR SHARED BIKES.
-•	HOW WELL THOSE VARIABLES DESCRIBE THE BIKE DEMANDS
-BASED ON VARIOUS METEOROLOGICAL SURVEYS AND PEOPLE'S STYLES, 
-THE SERVICE PROVIDER FIRM HAS GATHERED A LARGE DATASET ON DAILY BIKE DEMANDS ACROSS THE AMERICAN MARKET BASED ON SOME FACTORS. 
+They Have Contracted A Consulting Company To Understand The Factors On Which The Demand For These Shared Bikes Depends.
+Specifically, They Want To Understand The Factors Affecting The Demand For These Shared Bikes In The American Market. 
+The Company Wants To Know:
+•	Which Variables Are Significant In Predicting The Demand For Shared Bikes.
+•	How Well Those Variables Describe The Bike Demands
+Based On Various Meteorological Surveys And People's Styles, 
+The Service Provider Firm Has Gathered A Large Dataset On Daily Bike Demands Across The American Market Based On Some Factors. 
 
 ```
-## **DESCRIPTION OF THE DATA WITA SHORT NOTE**
-- **WE ARE CREATING A MODEL BASED ON THE DATA SET AND PERFORMING THE OPERATION AND FINDING THE FEATURE VARIABLE**
-- **IN WHICH YEAR,SEASON,TEMP,WEEKDAY,WORKINGDAY,ETC.....FINDING THE DEMAND OF BIKE**
--  **WHAT WILL BE THE DEMAND OF BIKE ON DIFFERENT VARIABLES**
+## **Description Of The Data Wita Short Note**
+- **We Are Creating A Model Based On The Data Set And Performing The Operation And Finding The Feature Variable**
+- **In Which Year,Season,Temp,Weekday,Workingday,Etc.....Finding The Demand Of Bike**
+-  **What Will Be The Demand Of Bike On Different Variables**
 
 
-## THERE AER FOUR MAJOR STEPS WHICH WE WANT TO MAKE OUR MODEL BEST
-- **STEP 1 DATA UNDERSTANDING AND DATA CLEANING OR DATA UNDERSTANDING, PREPARATION AND EDA**
-    - **PERFORMING EDA LIKE HANDLING MISSING VALUES AND REMOVING UNNECESSARY COLUMNS AND OUTLIER ETC...**
-    - **AFTER THAT VISUALISING THE DATA ON THE DIFFERNT VARIABLES ON THE DEPENDENT VARIABLE OR TRAGET VARIBLE**
-- **STEP 2 TRAINING DATA IN TO TRAIN & TEST SPLIT**
-     - **SPLITING THE TRAIN TEST SPLIT**
-     - **DIVIDING THE X&Y TERMS**
-     - **RESCALING THE FEATURES PERFORMIONG RESCALE FEATRUE ELMINATION**
-     - **ADDING THE CONSTANTS, FITTING THE MODEL, SEEING THE PARAMETERS, AND AT LAST MODEL SUMMARY**
-     - **USING VARIENCE INFLATION FACTORS**
-     - **DROPPING THE COLUMNS BY SEEING PVALUE AND HIGH VIF OR LOW VIF ETCC....**
-- **STEP 3 RESIDUAL ANALYSIS**
-- **STEP 4 PREDICTIONS AND EVALUATIONS ON THE TEST DATA SET**
+## There Aer Four Major Steps Which We Want To Make Our Model Best
+- **Step 1 Data Understanding And Data Cleaning Or Data Understanding, Preparation And Eda**
+    - **Performing Eda Like Handling Missing Values And Removing Unnecessary Columns And Outlier Etc...**
+    - **After That Visualising The Data On The Differnt Variables On The Dependent Variable Or Traget Varible**
+- **Step 2 Training Data In To Train & Test Split**
+     - **Spliting The Train Test Split**
+     - **Dividing The X&Y Terms**
+     - **Rescaling The Features Performiong Rescale Featrue Elmination**
+     - **Adding The Constants, Fitting The Model, Seeing The Parameters, And At Last Model Summary**
+     - **Using Varience Inflation Factors**
+     - **Dropping The Columns By Seeing Pvalue And High Vif Or Low Vif Etcc....**
+- **Step 3 Residual Analysis**
+- **Step 4 Predictions And Evaluations On The Test Data Set**
 
 #
-## FINAL CONCLUSION
-- **THERE ARE SOME FEATURE VARIABLES WHICH CAN INCREASE THE DEMAND OF THE BIKE**
-### THERE IS NO CORRECT VALUE FOR MSE. SIMPLY PUT, THE LOWER THE VALUE THE BETTER AND 0 MEANS THE MODEL IS PERFECT. SINCE THERE IS NO CORRECT ANSWER, THE MSE’S BASIC VALUE IS IN SELECTING ONE PREDICTION MODEL OVER ANOTHER.
+## Final Conclusion
+- **There Are Some Feature Variables Which Can Increase The Demand Of The Bike**
+### There Is No Correct Value For Mse. Simply Put, The Lower The Value The Better And 0 Means The Model Is Perfect. Since There Is No Correct Answer, The Mse’s Basic Value Is In Selecting One Prediction Model Over Another.
 
-### SIMILARLY, THERE IS ALSO NO CORRECT ANSWER AS TO WHAT R2 SHOULD BE
+### Similarly, There Is Also No Correct Answer As To What R2 Should Be
 
-- **THE R SQUARED VALUE OF TRAINING SET IS : 0.8519229478939757**
-- **THE R SQUARED VALUE OF TEST SET IS : 0.7760830156048715**
-- **THE MEAN SQUARED ERROR OF TRAIN IS: 0.007505910601061811**
-- **THE MEAN SQUARED ERROR OF TEST IS: 0.010066294557928523**
+- **The R Squared Value Of Training Set Is : 0.8519229478939757**
+- **The R Squared Value Of Test Set Is : 0.7760830156048715**
+- **The Mean Squared Error Of Train Is: 0.007505910601061811**
+- **The Mean Squared Error Of Test Is: 0.010066294557928523**
 ## Technologies Used
-- Python,Jupyter notebook
-- Libraries Like Pandas ,Numpy,Matplotlib.pyplot,Plotly.Express,Seaborn
+- Python,Jupyter Notebook
+- Libraries Like Pandas ,Numpy,Matplotlib.Pyplot,Plotly.Express,Seaborn
+
 
 
 ### Contributors
