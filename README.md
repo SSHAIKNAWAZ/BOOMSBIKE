@@ -51,4 +51,4 @@ These assumptions are essential to validate the model's reliability and interpre
 - Ploty - version 5.9.0
 
 ### Contributors
-- **Zeba Firdows**
+- **Shaik Nawaz**
